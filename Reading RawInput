@@ -1,0 +1,22 @@
+# Read a line of input from stdin and save it to a variable,s . Then print the contents of s to stdout.
+---------------------------------
+# Input:
+ -----------
+ A single line containing sentence s.
+ 
+ #Output:
+ ----------
+ How many chickens does it take to cross the road?
+ 
+ Solution:
+ ---------------------
+ def read():
+    s=raw_input()
+   
+    return s
+if __name__ == '__main__':
+    my_str = read()
+    print my_str
+    
+    
+
